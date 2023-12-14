@@ -1,0 +1,750 @@
+/* Base */
+:root {
+    --green-color: #06D6A0;
+    --green-black-color: #2F4F4F;
+    --blackgrey-color: #073B4C;
+    --black-color: #000;
+    --white-color: #fff;
+    --grey-color: #999999;
+}
+
+* {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    line-height: 15 px;
+    box-sizing: border-box;
+    font-family: Paragraph;
+    font-size: 62.5%;
+}
+
+.using {
+    background-color: var(--green-color);
+}
+
+/* Navbar */
+
+.nav {
+    background-color: var(--blackgrey-color);
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 10;
+}
+
+.nav__list {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    list-style: none;
+}
+
+.nav__list-items, .nav__infor {
+    height: 100%;
+    width: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.6rem;
+}
+
+.nav__list-items :hover, .nav__infor:hover {
+    opacity: 0.7;
+}
+
+.nav__list-link {
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: var(--white-color);
+    font-size: 1.6rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav__infor-link {
+    text-decoration: none;
+    color: var(--white-color);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav__searching {
+    width: 660px;
+    height: 100%;
+    display: flex;
+}
+
+.nav__searching-bar {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    background-color: var(--green-color);
+    border: 0px;
+    font-size: 1.6rem;
+    font-family: 'Francois One', sans-serif;
+}
+
+.fi {
+    width: fit-content;
+    height: 100%;
+    background-color: var(--green-color);
+    display: flex;
+    align-items: center;
+    padding: 2px 8px 2px 4px;
+    border: 0px;
+    margin-right: 0px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.fi:hover {
+    opacity: 0.8;
+}
+
+.nav__img {
+    height: 80%;
+}
+
+.nav__button-search {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    outline: none;
+    border: 0px;
+    cursor: pointer;
+}
+
+.main {
+    background-image: linear-gradient(0, rgba(255, 255, 255, 0.3),  rgba(255, 255, 255, 0.3)),url("https://c0.wallpaperflare.com/preview/442/870/520/vietnam-v%C5%A9ng-tau-coean-sea.jpg");
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    width: 100%;
+    height: 738px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    background-size: cover;    
+}
+
+.main__slogan {
+    color: var(--blackgrey-color);
+    margin-left: 60px;
+    margin-top: 260px;
+}
+
+.main__slogan-tittle {
+    font-family: Heading;
+    font-size: 6.5rem;
+}
+
+.keyword {
+    color: var(--green-color);
+}
+
+.main__slogan-descirption {
+    font-size: 2.5rem;
+    font-weight: 400;
+    text-align: left;
+}
+
+.container-1 {
+    margin: 80px 140px 80px 123px;
+}
+
+.aim {
+    color: var(--blackgrey-color);
+    margin-bottom: 65px;
+    text-align: center;
+}
+
+.aim__paragraph {
+    font-size: 3.8rem;
+    font-family: Heading;
+}
+
+.introduce {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.introduce__img-link, .introduce__img {
+    width: 622px;
+}
+
+.introduce__p {
+    color: var(--white-color);
+    background-color: var(--blackgrey-color);
+    padding: 40px 40px 113px 23px;
+    font-size: 2rem;
+    position: relative;
+}
+
+.introduce__p-2 {
+    margin-top: 20px;
+}
+
+.introduce__button {
+    position: absolute;
+    background-color: #073B4C;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    bottom: 2%;
+    width: 162px;
+    height: 52px;
+    border: var(--green-color) solid 6px;
+}
+
+.introduce__button:hover {
+    opacity: 0.5;
+}
+
+.introduce__button-link {
+    color: var(--green-color);
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 2rem;
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.introduce__p-spw {
+    color: var(--green-color);
+    font-weight: bold;
+}
+
+.container-2__swiper {
+    width: 100%;
+    height: 700px;
+}
+
+.container-2__swiper-slide {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(0, rgba(7,59,76, 0.55),  rgba(7,59,76, 0.55)) ,url(/information/img/places/đất\ đỏ.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+}
+
+ .container-2__paragraph {
+    width: 60%;
+    align-self: center;
+}
+
+.container-2__main {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.container-2__name {
+    font-size: 6.5rem;
+    font-family: Heading;
+    margin: 3px;
+    padding-left: 5px;
+    position: relative;
+    -webkit-text-fill-color: var(--blackgrey-color);
+    -webkit-text-stroke: var(--green-color) 1px;
+}
+
+.container-2__name::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 20px;
+    background-color: var(--green-color);
+    position: absolute;
+    bottom: 10%;
+    z-index: -1;
+}
+
+.container-2__description {
+    font-size: 2.5rem;
+    margin-top: 20px;
+    padding-left: 10px;
+    color: var(--white-color);
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.container-2__description-2 {
+    margin-top: 30px;
+    font-size: 2.5rem;
+    font-family: 'Fira Sans', sans-serif;
+    padding-left: 30px;
+}
+
+.container-2__description-2 > li {
+    padding-top: 6px;
+}
+
+.container-2__position{
+    overflow: hidden;
+    margin-right: -130px;
+    object-fit: contain;
+}
+
+.DatDo {
+    background-position: top;
+}
+
+.VungTau {
+    background-image: linear-gradient(0, rgba(7,59,76, 0.55),  rgba(7,59,76, 0.55)),url(https://chauhomestay.com/wp-content/uploads/2021/09/dia-diem-choi-dem-vung-tau-1.jpeg);
+}
+
+.BaRia {
+    background-image: linear-gradient(0, rgba(7,59,76, 0.55),  rgba(7,59,76, 0.55)),url(/information/img/places/virtual/nhatron.png);
+}
+
+.XuyenMoc {
+    background-image: linear-gradient(0, rgba(7,59,76, 0.55),  rgba(7,59,76, 0.55)),url(/information/img/places/virtual/HoCoc.jpg);
+}
+
+.LongDien {
+    background-image: linear-gradient(0, rgba(7,59,76, 0.55),  rgba(7,59,76, 0.55)),url(/information/img/places/virtual/Núi\ Minh\ Đạm\ -\ Long\ Hải.jpg);
+}
+
+.ConDao {
+    background-image: linear-gradient(0, rgba(7,59,76, 0.55),  rgba(7,59,76, 0.55)),url(/information/img/places/virtual/ConDao.jpg);
+}
+
+.PhuMy {
+    background-image: linear-gradient(0, rgba(7,59,76, 0.55),  rgba(7,59,76, 0.55)),url(/information/img/places/virtual/cang\ bien.jpg)
+}
+
+.ChauDuc {
+    background-image: linear-gradient(0, rgba(7,59,76, 0.55),  rgba(7,59,76, 0.55)),url(/information/img/places/virtual/thac-xuan-son.jpg)
+}
+
+.container-2__button {
+    background-color: var(--blackgrey-color);
+    text-align: center;
+    width: 200px;
+    height: 15px;
+    cursor: pointer;
+    padding: 10px 0 10px 0;
+    margin-top: 20px;
+    position: relative;
+    margin-left: 20px;
+}
+
+.container-2__button-link {
+    text-decoration: none;
+    color: var(--green-color);
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    text-align: center;
+    padding-top: 6px;
+    font-size: 1.6rem;
+    border: solid 3px;
+}
+
+.container-2__button-link:hover {
+    opacity: 0.8;
+}
+
+.brvtcoj {
+    width: 100%;
+    height: 580px;
+}
+
+.brvtcoj__card {
+    width: 100%;
+    height: 80%;
+}
+
+
+.brvtcoj-swiper {
+    width: 90%;
+    height: 500px;
+}
+
+.brvtcoj_swiper-slide {
+    background-color: var(--green-color);
+}
+
+.brvtcoj__main {
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.brvtcoj__img1 {
+    width: 100%;
+    height: 250px;
+    background: url(/information/img/places/ngọn\ hải\ đăng.jpeg) no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+}
+
+.brvtcoj__img2 {
+    width: 100%;
+    height: 250px;
+    background: url(/information/img/places/sunset\ in\ Hon\ Ba\ -\ tp.vt.png) no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+}
+
+.brvtcoj__img3 {
+    width: 100%;
+    height: 250px;
+    background: url(/information/img/places/tượng\ chúa\ -\ tp.vt.jpeg) no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+}
+
+
+.brvtcoj__title {
+    font-family: heading;
+    font-size: 2.1rem;
+    width: 100%;
+}
+
+.brvtcoj__infor {
+    font-family: paragraph;
+    font-size: 2.0rem;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+
+.gettoknow__events{
+    background-color: var(--blackgrey-color);
+}
+.brvtcoj__link {
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+
+.gettoknow {
+    background-color: var(--blackgrey-color);
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gettoknow__tittle {
+    font-family: Heading;
+    font-size: 5rem;
+    color: var(--blackgrey-color);
+    text-align: center;
+    padding: 30px 0 50px 0px;
+    position: relative;
+}
+
+.gettoknow__tittle::before {
+    content: "";
+    display: block;
+    width: 60%;
+    height: 20px;
+    background-color: var(--green-color);
+    position: absolute;
+    bottom: 35%;
+    z-index: -1;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, 2px);
+}
+
+.gettoknow__description {
+    color: var(--blackgrey-color);
+    font-size: 2.5rem;
+    margin-top: -4rem;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+.gettoknoew__card {
+    width: 1400px;
+    height: 600px;
+    background-color: var(--white-color);
+    border-radius: 10px;
+}
+
+.gettoknow-swiper {
+    width: 1200px;
+    height: 530px;
+}
+
+
+.gettoknow__wrapper {
+    width: 100%;
+    padding-top: 75px;
+}
+.gettoknow_swiper-slide {
+    background-color: #3b678f;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.SM {
+    background-color: var(--white-color);
+    width: 100%;
+    height: fit-content;
+}
+
+.SM__heading {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: var(--blackgrey-color);
+}
+
+.SM__tittle {
+    font-family: Heading;
+    font-size: 5rem;
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    padding-bottom: 1rem;
+    margin-top: 2rem;
+}
+
+.SM__tittle::before {
+    content: "";
+    display: block;
+    width: 50%;
+    height: 20px;
+    background-color: var(--green-color);
+    position: absolute;
+    z-index: -1;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    transform: translate(-50%, -50%);
+}
+
+.SM__description {
+    font-size: 30px;
+    font-weight: 400;
+    width: 120rem;
+    align-self: center;
+    margin-bottom: 3rem;
+}
+
+.gettoknow__events {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.events__container {
+    width: 1141px;
+}
+
+.events__heading {
+    text-align: center;
+    margin: 37px 0 45px 0;
+}
+
+.events__tittle {
+    font-size: 6.5rem;
+    font-family: Heading;
+    margin-bottom: 1px;
+    color: var(--green-color);
+    position: relative;
+    margin-bottom: 30px;
+    z-index: 2;
+    -webkit-text-fill-color: var(--blackgrey-color);
+    -webkit-text-stroke: var(--green-color) 3px;
+}
+
+.events__tittle::after {
+    content: "";
+    display: block;
+    width: 80%;
+    height: 20px;
+    position: absolute;
+    background-color: var(--green-color);
+    left: 50%;
+    right: 50%;
+    top: 89%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.events__description {
+    font-size: 3rem;
+    font-weight: 100;
+    color: var(--green-color);
+    font-family: Paragraph;
+    margin-top: -2.5rem;
+}
+
+.events__main {
+    width: 100%;
+    text-align: center;
+}
+
+.events__wrapper {
+    height: 287px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.events__slides {
+    align-self: stretch;
+    width: 100%;
+}
+
+.events__slides-1 {
+    background-image: linear-gradient(0,rgba(255, 255, 255, 0), rgba(62,68,76,0.8)) ,url(https://thamhiemmekong.com/wp-content/uploads/2020/12/lehoinghinhongsongdoc.jpg);
+    background-size: cover;
+    object-fit: cover;
+    position: relative;
+}
+
+.events__slides-2 {
+    background-image: linear-gradient(0,rgba(255, 255, 255, 0), rgba(62,68,76, 0.8)) ,url(https://media.mia.vn/uploads/blog-du-lich/Le-hoi-Dinh-Co-Long-Hai-Le-hoi-nuoc-cuc-ky-doc-dao-03-1649803198.jpg);
+    background-size: cover;
+    object-fit: cover;
+    position: relative;
+}
+
+.events__slides-3 {
+    background-image: linear-gradient(0,rgba(255, 255, 255, 0), rgba(62,68,76,0.8)) ,url(https://media-cdn-v2.laodong.vn/storage/newsportal/2023/6/26/1209114/DSC06030.jpg);
+    background-size: cover;
+    object-fit: cover;
+    position: relative;
+}
+
+.events__slides-infor {
+    color: var(--white-color);
+    text-align: left;
+    margin: 30px 0px 0px 25px;
+}
+
+.events__slides-infor-date {
+    font-weight: 10;
+    font-size: 14px;
+}
+
+.events__slides-infor-tittle {
+    font-size: 25px;
+}
+
+.events__slides-spacelink {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: absolute;
+}
+
+.events__slides-link {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.events__paper {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.events__paper-items {
+    align-self: stretch;
+    width: 100%;
+    font-weight: bold;
+    color: var(--green-color);
+    position: relative;
+    font-size: 2rem;
+}
+
+.events__paper-items::before {
+    content: "";
+    display: block;
+    background-color:var(--green-color);
+    width: 100%;
+    height: 4px;
+    margin-bottom: 15px;
+}
+
+.events__paper-items::after {
+    content: "";
+    display: block;
+    background-color: var(--green-color);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.events__button {
+    text-align: center;
+    margin-top: 63px;
+    margin-bottom: 10px;
+    height: 50px;
+}
+
+.events__button-link {
+    text-decoration: none;
+    color: var(--green-color);
+    font-size: 2.3rem;
+    border: 4px solid var(--green-color);
+    padding: 7px 20px;
+    font-family: Paragraph;
+}
+
+.events__button-link:hover {
+    opacity: 0.5;
+}
+
+.footer {
+    width: 100%;
+    height: 15rem;
+    background-image: linear-gradient(0, rgba(7,59,76, 0.1),  rgba(7,59,76, 0.55)),url(/information/img/places/ảnh\ ở\ phần\ credit\ cuối\ web.jpeg);
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+} 

@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --green-color: #06D6A0;
+    --green-black-color: #2F4F4F;
+    --blackgrey-color: #073B4C;
+    --black-color: #000;
+    --white-color: #fff;
+    --grey-color: #999999;
+}
+
+html {
+    line-height: 15 px;
+    box-sizing: border-box;
+    font-family: Paragraph;
+ }
+
+.using {
+    background-color: #02C39A;
+}
+
+.nav {
+    background-color: #028090;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 10;
+}
+
+.nav__list {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    list-style: none;
+}
+
+.nav__list-items, .nav__infor {
+    height: 100%;
+    width: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.6rem;
+}
+
+.nav__list-items :hover, .nav__infor:hover {
+    opacity: 0.7;
+}
+
+.nav__list-link {
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: var(--white-color);
+    font-size: 1.6rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav__infor-link {
+    text-decoration: none;
+    color: var(--white-color);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav__searching {
+    width: 660px;
+    height: 100%;
+    display: flex;
+}
+
+.nav__searching-bar {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    background-color: #02C39A;
+    border: 0px;
+    font-size: 1.6rem;
+    font-family: Paragarph;
+}
+
+.fi {
+    width: fit-content;
+    height: 100%;
+    background-color: #02C39A;
+    display: flex;
+    align-items: center;
+    padding: 2px 8px 2px 4px;
+    border: 0px;
+    margin-right: 0px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.fi:hover {
+    opacity: 0.8;
+}
+
+.nav__img {
+    height: 80%;
+}
+
+.nav__button-search {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    outline: none;
+    border: 0px;
+    cursor: pointer;
+}
+
+.main {
+    background-image: linear-gradient(0, rgba(255, 255, 255, 0.3),  rgba(255, 255, 255, 0.3)),url("../img/VungTau_ve_dem.jpg");
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    background-size: cover;    
+}
+
+.main__slogan {
+    color: var(--blackgrey-color);
+    margin-left: 60px;
+    margin-top: 260px;
+}
+
+.main__slogan-tittle {
+    font-family: Heading;
+    font-size: 6.5rem;
+    color: var(--green-color);
+    text-align: center;
+}
+
+.main__slogan-descirption {
+    font-size: 2.5rem;
+    font-weight: 400;
+    text-align: left;
+    color: var(--white-color);
+}
+
+.Menu{
+    height: 400px;
+    width:150px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 20%;
+}
+
+.main-content__items {
+    background-color: white;
+    border: solid 1px black;
+    height: calc(400px / 8);
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.main-content {
+    width: 100%;
+    height: 200vh;
+    display: flex;
+    
+}
+
+.bookmark {
+    text-decoration: none;
+    color: #000;
+}
+
+.main-paragraph {
+    width: 100%;
+    font-size: 1.6rem;
+    margin-left: 5%;
+    margin-top: 5%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-paragraph_tittle {
+    font-size: 3.0rem;
+}
+
+.main-paragraph-items {
+    align-items: center;
+}
