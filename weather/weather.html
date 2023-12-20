@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="weather.css">
+    <link rel="stylesheet" href="../information/css/base.css">
+</head>
+<body>
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__list-items"><a href="../index.html" class="nav__list-link">Trang chủ</a></li>
+            <li class="nav__list-items"><a href="#" class="nav__list-link">Bản đồ </a></li>
+            <li class="nav__list-items using"><a href="weather.html" class="nav__list-link">Thời tiết</a></li>
+            <li class="nav__list-items"><a href="#" class="nav__list-link">Địa điểm</a></li>
+        </ul>
+
+        <div class="nav__searching">
+            <i class="fi fi-rs-search"><button class="nav__button-search"><img src="../information/img/search.png" class="nav__img"></button></i>
+            <input type="text" class="nav__searching-bar">
+        </div>
+
+        <div class="nav__infor">
+            <a href="#" class="nav__infor-link">Liên hệ</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="container-infor">
+            <script>
+                (function(d, s, id) {
+                    if (d.getElementById(id)) {
+                        if (window.__TOMORROW__) {
+                            window.__TOMORROW__.renderWidget();
+                        }
+                        return;
+                    }
+                    const fjs = d.getElementsByTagName(s)[0];
+                    const js = d.createElement(s);
+                    js.id = id;
+                    js.src = "https://www.tomorrow.io/v1/widget/sdk/sdk.bundle.min.js";
+        
+                    fjs.parentNode.insertBefore(js, fjs);
+                })(document, 'script', 'tomorrow-sdk');
+                </script>
+        
+                <div class="tomorrow"
+                   data-location-id="130626,130539,130510,130255,130613,130202"
+                   data-language="VI"
+                   data-unit-system="METRIC"
+                   data-skin="dark"
+                   data-widget-type="current6"
+                   style="padding-bottom:22px;position:relative;width: 100%;"
+                >
+                  <a
+                    href="https://www.tomorrow.io/weather-api/"
+                    rel="nofollow noopener noreferrer"
+                    target="_blank"
+                    style="position: absolute; bottom: 0; transform: translateX(-50%); left: 50%;"
+                  >
+                    <img
+                      alt="Powered by the Tomorrow.io Weather API"
+                      src="https://weather-website-client.tomorrow.io/img/powered-by.svg"
+                      width="250"
+                      height="18"
+                    />
+                  </a>
+                </div>
+                <iframe style="width: 100%; height: 100%; border-radius: 20px; border: 5px solid #0072f5;" src="https://embed.windy.com/embed2.html?lat=9.604&lon=108.160&detailLat=8.896&detailLon=107.325&width=1000&height=1000&zoom=8&level=surface&overlay=wind&product=ecmwf&menu=&message=true&marker=true&calendar=24&pressure=&type=map&location=coordinates&detail=&metricWind=km%2Fh&metricTemp=%C2%B0C&radarRange=-1" frameborder="0"></iframe>
+        </div>
+        <div class="comment"></div>
+    </div>
+    <script src="weather.js"></script>
+</body>
+</html>

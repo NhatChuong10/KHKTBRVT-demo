@@ -25,7 +25,7 @@
         <ul class="nav__list">
             <li class="nav__list-items"><a href="index.html" class="nav__list-link">Trang chủ</a></li>
             <li class="nav__list-items"><a href="#" class="nav__list-link">Bản đồ </a></li>
-            <li class="nav__list-items"><a href="#" class="nav__list-link">Thời tiết</a></li>
+            <li class="nav__list-items"><a href="./weather/weather.html" class="nav__list-link">Thời tiết</a></li>
             <li class="nav__list-items using"><a href="#" class="nav__list-link">Địa điểm</a></li>
         </ul>
 
@@ -57,27 +57,622 @@
             <p class="main-content__items"><a href="#ĐL" class="bookmark">Địa lí</a></p>
             <p class="main-content__items"><a href="#VH" class="bookmark">Văn hóa</a></p>
             <p class="main-content__items"><a href="#KT" class="bookmark">Kinh tế</a></p>
-            <p class="main-content__items"><a href="#LH" class="bookmark">Lễ hội</a></p>
+            <p class="main-content__items"><a href="#VH" class="bookmark">Lễ hội</a></p>
             <p class="main-content__items"><a href="#GD" class="bookmark">Giáo dục</a></p>
             <p class="main-content__items"><a href="#LH" class="bookmark">Liên hệ</a></p>
         </div>
         <div class="main-paragraph">
-            <h2 id="KQ" class="main-paragraph_tittle main-paragraph-items">Khái quát</h2>
-            <p class="main-paragraph-items KQ-pgr"></p>
-            <h2 id="LS" class="main-paragraph_tittle main-paragraph-items">Lịch sử</h2>
-            <p class="main-paragraph-items LS-pgr"></p>
-            <h2 id="ĐL" class="main-paragraph_tittle main-paragraph-items">Địa lý</h2>
-            <p class="main-paragraph-items ĐL-pgr"></p>
-            <h2 id="VH" class="main-paragraph_tittle main-paragraph-items">Văn hóa</h2>
-            <p class="main-paragraph-items VH-pgr"></p>
-            <h2 id="KT" class="main-paragraph_tittle main-paragraph-items">Kinh tế</h2>
-            <p class="main-paragraph-items KT-pgr"></p>
-            <h2 id="LH" class="main-paragraph_tittle main-paragraph-items">Lễ hội</h2>
-            <p class="main-paragraph-items LH-pgr"></p>
-            <h2 id="GD" class="main-paragraph_tittle main-paragraph-items">Giáo dục</h2>
-            <p class="main-paragraph-items GD-pgr"></p>
-            <h2 id="LHe" class="main-paragraph_tittle main-paragraph-items">Liên hệ</h2>
-            <p class="main-paragraph-items LHe-pgr"></p>
+            <h2 id="KQ" class="main-paragraph_tittle">Khái quát</h2>
+            <p class="main-paragraph-items KQ-pgr" style="padding-left: 40px;">Bà Rịa – Vũng Tàu là một tỉnh ven biển thuộc vùng Đông Nam Bộ, Việt Nam. Đây là trung tâm kinh tế, tài chính, văn hóa, du lịch, giao thông - vận tải và giáo dục của miền Nam nước ta.<br>Với hệ sinh thái biển độc đáo, tài nguyên thiên nhiên phong phú và cơ sở vật chất được đầu tư kỹ lưỡng, BRVT còn được mệnh danh là “báu vật” của ngành du lịch Việt Nam.</p>
+            <h2 id="LS" class="main-paragraph_tittle">Lịch sử hình thành</h2>
+            <div class="main-paragraph-items LS-pgr">
+                <b style="font-size: 2.4rem;">Lịch sử tên gọi địa danh </b><br>
+                <p>- <b>Bà Rịa:</b> Theo nhiều người giải thích là xưa ở vùng đất này có một bà quê ở Bình Định vào vùng Mô Xoài này khai hoang lập nghiệp, nên để ghi nhớ công ơn này nên người dân địa phương Tôn Thờ Bà, và lấy tên bà đặt cho vùng đất Bà Rịa ngày nay</p>
+                <p>- <b>Vũng Tàu:</b></p>
+                <table style="width: 100%; border: 1px solid black; margin-top: 20px;">
+                    <tr>
+                        <th>1947</th>
+                        <th>1956</th>
+                        <th>1964</th>
+                        <th>1975</th>
+                        <th>1979</th>
+                        <th>1991</th>
+                    </tr>
+                    <tr>
+                        <td>Tỉnh Bà Rịa</td>
+                        <td colspan="2">Tỉnh Phước Tuy</td>
+                        <td colspan="2">Tỉnh Đồng Nai</td>
+                        <td>Tỉnh Bà Rịa Vũng Tàu</td>
+                    </tr>
+                    <tr>
+                        <td>Tỉnh Vũng Tàu</td>
+                        <td>Tỉnh Phước Tuy</td>
+                        <td>Thị xã Vũng Tàu</td>
+                        <td>Tỉnh Đồng Nai</td>
+                        <td>Đặc khu Vũng Tàu - Côn Đảo</td>
+                        <td>Tỉnh Bà Rịa Vũng Tàu</td>
+                    </tr>
+                    <tr>
+                        <td>Côn Lôn thuộc Hà Tiên</td>
+                        <td>Tỉnh Côn Đảo</td>
+                        <td>Côn Đảo</td>
+                        <td>Tỉnh Hà Giang</td>
+                        <td>Đặc khu Vũng Tàu - Côn Đảo</td>
+                        <td>Tỉnh Bà Rịa Vũng Tàu</td>
+                    </tr>
+                </table>
+                <b style="font-size: 2.4rem;">Buổi đầu khám phá</b><br>
+                <ul style="padding-left: 40px;">
+                    <li>Năm 1698, Phủ Gia Định được thành lập gồm 2 huyện Tân Bình và Phước Long trong đó :</li>
+                        <ul style="padding-left: 60px;">
+                            <li>Huyện Phước Long gồm 4 tổng trong đó có tổng Phước An nay là tỉnh Bà Rịa – Vũng Tàu và 1 phần tỉnh Đồng Nai như Thị xã Long Khánh, huyện Xuân Lộc, Cẩm Mỹ…                            </li>
+                            <li>Côn Đảo lúc này thuộc tỉnh Hà Tiên.</li>
+                        </ul>
+                    <li>Năm 1808, Tổng thành huyện, Huyện trở thành Phủ . Theo đó, tổng Phước An huyện Phước Long trở thành Huyện Phước An phủ Phước Long. Huyện Phước An gồm 2 tổng Phước Hưng và  An Phú.</li>
+                    <li>Năm 1819, đảo Côn Lôn (Côn Đảo ngày nay) thuộc đạo Cần Giờ tỉnh Gia Định.</li>
+                    <li>Năm 1937, tách huyện Phước An và Long Thành thuộc phủ Phước Long để thành lập phủ Phước Tuy; thành lập huyện mới Long Khánh tách từ huyện Phước An.</li>
+                        <ul style="padding-left: 60px;">
+                            <li>Phủ Phước Tuy thuộc tỉnh Biên Hoà gồm 3 huyện Phước An, Long Thành và Long Khánh.</li>
+                        </ul>
+                    <li>Năm 1839, Đảo Côn Lôn thuộc tỉnh Vĩnh Long.</li>
+                    <li>Năm 1861, Đảo Côn Lôn thuộc tỉnh Hà Tiên như lúc đầu.</li>
+                </ul>
+
+                <b style="font-size: 2.4rem;">Giai đoạn Pháp thuộc</b><br>
+                <ul style="padding-left: 40px;">
+                    <li>Năm 1862, huyện Phước An đổi thành hạt Thạnh Tra Bà Rịa.</li>
+                    <li>Năm 1869, đổi hạt Thạnh Tra thành Khu Tham Biện.</li>
+                    <li>Năm 1882, thành lập Quận Côn Đảo trực thuộc Nam Kỳ.</li>
+                    <li><b>Năm 1885, thành lập Thành Phố Vũng Tàu từ khu Tham Biện Bà Rịa.</b></li>
+                    <li>Năm 1900: Khu Tham Biện đổi thành tỉnh Bà Rịa, thành lập mới Tổng An Phú Tân.</li>
+                    <li>Năm 1905:</li>
+                        <ul style="padding-left: 60px;">
+                            <li><b>Nhập thành Phố Vũng Tàu vào tỉnh Bà Rịa.</b></li>
+                            <li>2 tổng Cơ Trạch và Nhơn Xương tỉnh Bình Thuận nhập vào tỉnh Bà Rịa.</li>
+                        </ul>
+                    <li>Năm 1929, Thành lập tỉnh Vũng Tàu từ tổng Vũng Tàu, làng Sơn Long và Quận Cần Giờ (tỉnh Gia Định).</li>
+                    <li><b>Năm 1934, hạ tỉnh Vũng Tàu xuống cấp Thành phố.</b></li>
+                    <li>Năm 1938:</li>
+                        <ul style="padding-left: 60px;">
+                            <li>Lập Quận Long Điền cho toàn tỉnh Bà Rịa</li>
+                            <li>Lập mới tổng Phước Hưng Trung</li>
+                        </ul>
+                    <li>Năm 1939, tỉnh Bà Rịa gồm 1 Quận Long Điền. Quận Long Điền gồm 8 tổng: An Phú Tân, An Phú Thượng, An Phú Hạ, Phước Hưng Thượng, Phước Hưng Trung, Phước Hưng Hạ, Nhơn Xương và Cơ Trạch.</li>
+                </ul>
+
+                <b style="font-size: 2.4rem;">Giai đoạn 1945 - 1975</b><br>
+                <ul style="padding-left: 40px;">
+                    <li>Ngày 9/2/1946, quân Pháp chiếm Bà Rịa và Vũng Tàu</li>
+                    <li>Năm 1947, tái lập tỉnh Vũng Tàu</li>
+                    <li><b>Năm 1954, thành lập Quận Xuyên Mộc</b></li>
+                    <li>Năm 1956:</li>
+                        <ul style="padding-left: 60px;">
+                            <li>Thành lập tỉnh Phước Tuy từ tỉnh Bà Rịa và tỉnh Vũng Tàu. Tỉnh Lỵ tại Làng Phước Lễ tổng An Phú Hạ Quận Châu Thành.
+                                Tỉnh Phước Tuy gồm 6 Quận, 8 tổng và 39 xã.
+                            </li>
+                            <li>Quận Châu Thành gồm Tổng An Phú Hạ (3 xã), An Phú Tân (4 Xã) và tổng Cơ Trạch (4 Xã: Ngãi Giao, Bình Giã, Bình Ba và Hắc Dịch) .</li>
+                            <li>Quận Xuyên Mộc gồm Tổng Nhơn Xương (5 Xã).</li>
+                            <li>Quận Long Điền gồm tổng An Phú Thượng (6 xã: Long Điền, An Ngãi, An Nhất, Tam Phước, Phước Tỉnh và Long Hải).</li>
+                            <li>Quận Đất Đỏ gồm tổng Phước Hưng Thượng (3 Xã), Phước Hưng Trung (2 Xa) và Phước Hưng Hạ (3 Xã).</li>
+                            <li>Quận Vũng Tàu (5 Xã: Thắng Nhất, Thắng Nhì, Thắng Tam, Rạch Dừa và Phước Cơ) quận Cần Giờ (6 Xã).</li>
+                            <li>Thành lập tỉnh Côn Đảo.</li>
+                        </ul>
+                    <li><b>Năm 1958, Nhập Quận Đất Đỏ vào Quận Long Điền</b></li>
+                    <li>Năm 1959:</li>
+                        <ul style="padding-left: 60px;">
+                            <li>Tách 2 Quận là Cần Giờ và Quảng Xuyên cho tỉnh Biên Hoà</li>
+                            <li>Tái lập Quận Đất Đỏ</li>
+                        </ul>
+                    <li>Năm 1961, thành lập Quận Đức Thạnh từ 4 xã (Ngãi Giao, Bình Ba, Bình Giã và Hắc Dịch) của Châu Thành.</li>
+                    <li>Năm 1962, đổi Quận Châu Thành thành Quận Long Lễ.</li>
+                    <li>Năm 1964:</li>
+                        <ul style="padding-left: 60px;">
+                            <li>Nhập xã Hội Bài Quận Long Lễ vào Quận Phước Hoà</li>
+                            <li>Thành lập thị xã Vũng Tàu trực thuộc Trung ương</li>
+                        </ul>
+                    <li>Năm 1965:</li>
+                        <ul style="padding-left: 60px;">
+                            <li>Nhập Xã Nhu Lâm (Quận Xuyên Mộc) vào Xã Xuyên Mộc</li>
+                            <li>Đặt Côn Đảo Trực thuộc Trung Ương.</li>
+                        </ul>
+                    <li>Năm 1972, tách đất xã Hắc Dịch và xã Bình Ba thành lập xã Quãng Phước (Quận Đức Thạnh)</li>
+                    <li>Năm 1973, nhập quần đảo Trường xa Vào Xã Phước Hải quận Đất Đỏ</li>
+                    <li>Năm 1974, lập Phường Phước Hải thuộc thị xã Vũng Tàu</li>
+                    <li>26-4-1975: Sư đoàn Sao Vàng (Sư đoàn 3) nổ súng vào tiểu khu Phước Tuy, trung tâm huấn luyện Vạn Kiếp, mở màn cuộc tấn công giải phóng Bà Rịa - Vũng Tàu.</li>
+                    <li>27-4-1975: Xuyên Mộc và xã đảo Long Sơn hoàn toàn được giải phóng.</li>
+                    <li style="color: green;">30-4-1975: Đúng 13h, thành phố Vũng Tàu được hoàn toàn giải phóng.</li>
+                </ul>
+                
+                <b style="font-size: 2.4rem;">Giai đoạn sau 1975 - nay</b><br>
+                <ul style="padding-left: 40px;">
+                    <li>Năm 1975:</li>
+                        <ul style="padding-left: 60px;">
+                            <li>Thành Lập tỉnh Đồng Nai từ tỉnh Biên Hoà, Long Khánh, Phước Tuy, 1 phần đất tỉnh Bình Tuy.</li>
+                            <li>Tháng 9/1976 lập huyện Côn Đảo thuộc Thành phố Hồ Chí Minh.</li>
+                            <li>Tháng 1/1977 chuyển huyện Côn Đảo sang thuộc tỉnh Hậu Giang.</li>
+                        </ul>
+                </ul>
+
+                <b style="font-size: 2.4rem;">Đặc khu Vũng Tàu-Côn Đảo</b><br>
+                <ul style="padding-left: 40px;">
+                   <li>Năm 1979, thành lập đặc khu Vũng Tàu – Côn Đảo trên cơ sở thị xã Vũng Tàu tỉnh Đồng Nai, xã Long Sơn huyện Châu Thành Đồng Nai và huyện Côn Đảo tỉnh Hậu Giang</li> 
+                </ul>
+
+                <b style="font-size: 2.4rem;">Tỉnh Bà Rịa - Vũng Tàu</b><br>
+                <ul style="padding-left: 40px;">
+                    <li><span style="color: green;">Năm 1982, thành lập thị trấn Bà Rịa (huyện Châu Thành)</span> từ xã Phước Lễ, thị trấn Long Điền (huyện Long Đất) từ xã Long Điền, thị trấn Long Hải (huyện Long Đất) từ xã Long Hải. Giải tán xã Phước Lễ, Long Điền, Long Hải.</li>
+                    <li style="color: green;">Năm 1991, thành lập tỉnh Bà Rịa Vũng Tàu từ 3 huyện Châu Thành, Long Đất và Xuyên Mộc thuộc tỉnh Đồng Nai và Đặc Khu Vũng tàu Côn Đảo.</li>
+                        <ul style="padding-left: 60px;">
+                            <li>Tỉnh Bà Rịa Vũng Tàu khi đó gồm: thị xã Vũng Tàu (tỉnh lỵ), Các huyện: Châu Thành, Long Đất, Xuyên Mộc và Côn Đảo</li>
+                        </ul>
+                    <li style="color: green;">Năm 1994. thành lập thị xã Bà Rịa, huyện Tân Thành, huyện Châu Đức, lập Thị Trấn Phú Mỹ trực thuộc Tân Thành, TT Ngãi Giao thuộc Châu Đức. Giải tán huyện Châu Thành</li>
+                    <li style="color: green;">Năm 2003, giải thể huyện Long Đất. Lập huyện Long Điền và huyện Đất Đỏ.</li>
+                    <li style="color: green;">Năm 2007, lập thị trấn Đất Đỏ và Thị trấn Phước Hải trực thuộc huyện Đất Đỏ</li>
+                    <li style="color: green;">Năm 2012, thành lập Thành Phố Bà Rịa (ngày 22.08.2012).</li>
+                    <li style="color: green;">Năm 2018, thành lập Thị xã Phú Mỹ (trên cơ sở huyện Tân Thành).</li>
+                </ul>
+            </div>
+            <h2 id="ĐL" class="main-paragraph_tittle">Địa lí</h2>
+            <div class="main-paragraph-items ĐL-pgr">
+                <b style="font-size: 2.4rem;">Vị trí địa lí</b><br>
+                    <p style="padding-left: 40px; padding-top: 7px;">Bà Rịa - Vũng Tàu là một tỉnh ven biển nằm ở miền Đông Nam Bộ, tiếp giáp tỉnh Đồng Nai ở phía Bắc, với TP. Hồ Chí Minh ở phía Tây, với tỉnh Bình Thuận ở phía Đông, còn phía Nam giáp Biển Đông. Tỉnh nằm trong vùng Kinh tế trọng điểm phía Nam, thuộc vùng Đô thị Thành Phố Hồ Chí Minh.</p>
+                    <p style="padding-left: 40px; padding-top: 7px;">Vị trí này rất đặc biệt, đây chính là cửa ngõ hướng ra biển Đông của các tỉnh trong khu vực miền Đông Nam Bộ. Vị trí này cho phép tỉnh Bà Rịa - Vũng Tàu hội tụ nhiều tiềm năng để phát triển các ngành kinh tế biển như: khai thác dầu khí trên biển, khai thác cảng biển và vận tải biển, khai thác và chế biến hải sản, phát triển du lịch nghỉ dưỡng và tắm biển. Ở vị trí này, Bà Rịa - Vũng Tàu có điều kiện phát triển tất cả các tuyến giao thông đường bộ, đường không, đường thủy, đường sắt và là một địa điểm trung chuyển đi các nơi trong nước và thế giới.</p>
+                <b style="font-size: 2.4rem;">Địa hình</b><br>
+                    <p style="padding-left: 40px; padding-top: 7px;">Bà Rịa - Vũng Tàu có 7 đơn vị hành chính nằm trên đất liền và một đơn vị hành chính hải đảo là huyện Côn Đảo. Địa hình tỉnh có thể chia làm 4 vùng: bán đảo hải đảo, vùng đồi núi bán trung du và vùng thung lũng đồng bằng ven biển.</p>
+                    <p style="padding-left: 40px; padding-top: 7px;">Bán đảo Vũng Tàu dài và hẹp diện tích 82,86 km2, độ cao trung bình 3-4m so với mặt biển. Hải đảo bao gồm quần đảo Côn Lôn và đảo Long Sơn. Vùng đồi núi bán trung du nằm ở phía Bắc và Đông Bắc tỉnh phần lớn ở huyện Tân Thành, Châu Đức, Xuyên Mộc. Ở vùng này có vùng thung lũng đồng bằng ven biển bao gồm một phần đất của các huyện Tân Thanh Long Điền, Bà Rịa, Đất Đỏ. Khu vực này có những đồng lúa nước, xen lẫn những vạt đôi thấp và rừng thưa có những bãi cát ven biển. Thềm lục địa rộng trên 100.000  km2.</p>
+                <b style="font-size: 2.4rem;">Khí hậu</b><br>
+                    <p style="padding-left: 40px; padding-top: 7px;">Bà Rịa - Vũng Tàu thuộc vùng khí hậu nhiệt đới gió mùa; một năm chia hai mùa rõ rệt. Mùa mưa bắt đầu từ tháng 5 đến tháng 10, thời gian này có gió mùa Tây Nam. Mùa khô bắt đầu từ tháng 11 đến tháng 4 năm sau, thời gian này có gió mùa Đông Bắc.</p>
+                    <p style="padding-left: 40px; padding-top: 7px;">Nhiệt độ trung bình hàng năm là 27°C, tháng thấp nhất khoảng 24,8°C, tháng cao nhất khoảng 28,6°C. Số giờ nắng rất cao, trung bình hàng năm khoảng 2400 giờ. Lượng mưa trung bình 1500mm.</p>
+                    <p style="padding-left: 40px; padding-top: 7px;">Bà Rịa-Vũng Tàu nằm trong vùng ít có bão.</p>
+                <b style="font-size: 2.4rem;">Diện tích và dân số</b><br>
+                    <ul style="padding-left: 40px; padding-top: 7px;">
+                        <li>Diện tích: 1.982,56 km2.</li>
+                        <li>Mật độ: 589 người/km2</li>
+                        <li>Dân số: 1.167.938 người (2020)</li>
+                    </ul>
+                    <p style="padding-left: 40px;">Theo thống kê dân số năm 2020:</p>
+                    <ul style="padding-left: 40px;">
+                        <li>Dân số thành thị chiếm 58,5% dân số toàn tỉnh. Nam giới chiếm 49,57% dân số toàn tỉnh.</li>
+                        <li>Dân số phân bố theo cấp huyện như sau:</li>
+                            <ul style="padding-left: 60px;">
+                                <li>Thành phố Vũng Tàu: 362.061</li>
+                                <li>Thành phố Bà Rịa: 113.072</li>
+                                <li>Thị xã Phú Mỹ: 182.141</li>
+                                <li>Huyện Châu Đức: 147.426</li>
+                                <li>Huyện Long Điền: 137.759</li>
+                                <li>Huyện Đất Đỏ: 75.517</li>
+                                <li>Huyện Xuyên Mộc: 141.842</li>
+                            </ul>
+                    </ul>
+            </div>
+            <h2 id="VH" class="main-paragraph_tittle">Văn hóa - Lễ Hội</h2>
+            <div class="main-paragraph-items VH-pgr">
+                <p style="padding-left: 40px; padding-top: 7px;">Đời sống văn hóa ở tỉnh BRVT từ xa xưa đã là sự kết hợp, dung hòa từ nhiều yếu tố, từ nhiều vùng miền. Qua bao tháng năm và thăng trầm lịch sử, địa phương vẫn luôn lưu giữ những truyền thống được tạo nên từ yếu tố văn hóa biển nổi bật kết hợp cùng với văn hóa bản địa đặc trưng. Sự tổng hòa và tiếp biến theo dòng lịch sử đã tạo nên một dấu ấn văn hóa đặc trưng của riêng vùng đất này.</p>
+                <p style="padding-left: 40px; padding-top: 7px;">Theo Sở Văn hóa và Thể thao Bà Rịa-Vũng Tàu, địa bàn tỉnh có hệ thống di tích lịch sử, văn hóa đa dạng. Hiện nay, tỉnh có 12 lễ hội truyền thống, trong đó tiêu biểu là các lễ hội như Lễ giỗ bà Phi Yến, Lễ giỗ Đức Thánh Trần Hưng Đạo, Lễ hội Nghinh Ông tại đình Thắng Tam, Lễ hội Miếu Bà Ngũ Hành, Lễ hội Trùng Cửu, Lễ hội Dinh Cô, Lễ giỗ Ông Trần-Nhà Lớn Long Sơn.</p>
+                <p style="padding-left: 40px; padding-top: 7px;">Các lễ hội truyền thống ở Bà Rịa-Vũng Tàu thể hiện sự giao thoa màu sắc văn hóa truyền thống của cả ba miền Bắc-Trung-Nam và đã trở thành một phần không thể thiếu trong đời sống văn hóa cộng đồng nơi đây.</p>
+            </div>
+            <h2 id="KT" class="main-paragraph_tittle">Kinh tế</h2>
+            <div class="main-paragraph-items KT-pgr">
+                <b style="font-size: 2.4rem;">Tài nguyên thiên nhiên</b><br>
+                    <p style="padding-left: 40px; padding-top: 7px;"><b>Du lịch:</b> Bà Rịa – Vũng Tàu là một tỉnh ven biển vừa có bờ biển dài, bãi cát thoải và sạch, có nhiều tiềm năng và lợi thế để phát triển du lịch. Ngoài những di tích lịch sử, văn hóa lễ hội đặc sắc, còn được thiên nhiên ưu đãi với: khoảng 306km chiều dài bờ biển, trong đó có khoảng 156km có thể dùng làm bãi tắm; có rừng nguyên sinh Bình Châu - Phước Bửu với hệ động thực vật phong phú và nguồn suối khoáng nóng tự nhiên; Tỉnh có Núi Dinh, núi Minh Đạm… có thể khai thác du lịch. Đặc biệt huyện Côn Đảo của Bà Rịa – Vũng Tàu, đây là một huyện đảo với 16 đảo nhỏ hội tụ đầy đủ tiềm năng thiên nhiên và yếu tố nhân văn để phát triển du lịch.</p>
+                    <p style="padding-left: 40px; padding-top: 7px;"><b>Đất:</b> Bà Rịa-Vũng Tàu có 09 trong tổng số 12 nhóm đất của toàn quốc, ngoại trừ các nhóm đất trên núi cao. Tại Bà Rịa – Vũng Tàu có đủ tất cả các nhóm đất hiện diện ở vùng Đông Nam Bộ, trong đó có cả những nhóm đất được xếp vào loại đất tốt nhất trong các đất đồi núi ở Việt Nam, là các đất trên đá bazan và các đất tốt nhất ở vùng đồng bằng là đất phù sa.</p>
+                    <p style="padding-left: 40px; padding-top: 7px;"><b>Thủy sản:</b> Với lợi thế là một tỉnh ven biển nên việc khai thác và nuôi trồng thủy sản có rất nhiều thuận lợi. Ưu điểm này không chỉ có khả năng tạo ra đột phá kinh tế, mà còn góp phần tạo nguồn cung nguyên liệu ổn định cho xuất khẩu thủy sản.</p>
+                    <p style="padding-left: 40px; padding-top: 7px;"><b>Khoáng sản</b> Bà Rịa – Vũng Tàu có nhiều loại tài nguyên khoáng sản, trong đó nhiều nhất là dầu mỏ, khí thiên nhiên và khoáng sản làm vật liệu xây dựng. Trữ lượng dầu khí đã xác minh có khoảng 400 triệu m3 dầu, chiếm 93,29% trữ lượng dầu cả nước; trữ lượng khí trên 100 tỷ m3, chiếm 16,2 % trữ lượng khí cả nước. Khoáng sản làm vật liệu xây dựng đa dạng bao gồm: đá xây dựng, đá ốp lát, phụ gia xi măng, cát thủy tinh, bentonit, sét gạch ngói, cao lanh….</p>
+                    <p style="padding-left: 40px; padding-top: 7px;"><b>Tài nguyên rừng</b> Diện tích đất có rừng 28.549,27 ha, trong đó rừng tự nhiên 16.464,70 ha,  rừng trồng 12.084,87 ha. Độ che phủ của rừng năm 2021 đạt 13,79%</p>
+                <b style="font-size: 2.4rem; padding-top: 7px;">Cơ sở hạ tầng</b><br>
+                    <p style="padding-left: 40px; padding-top: 7px;"><b>Đường bộ:</b> Bà Rịa – Vũng Tàu kết nối với Thành phố Hồ Chí Minh và các địa phương khác trong khu vực thông qua Quốc lộ 51, Quốc lộ 55, Quốc lộ 56. Trong thời gian tới sau khi đầu tư hoàn thành các tuyến cao tốc Bến Lức - TP.HCM – Long Thành – Dầu Giây, cao tốc Biên Hòa – Vũng Tàu, đường Vành đai 4 Thành phố Hồ Chí Minh, cầu Phước An sẽ kết nối đồng bộ với các địa phương trong vùng kinh tế trọng điểm phía Nam và khu vực Tây Nam bộ. 
+                        Ngoài ra, tỉnh cũng đang đầu tư xây dựng một số tuyến đường trọng điểm khác như đường 991B, đường Phước Hoà – Cái Mép, đường vào Khu công nghiệp (KCN) Dầu khí Long Sơn, đường Long Sơn – Cái Mép, đường sau cảng Mỹ Xuân, đường ĐT991 nối dài, đường ĐT992 đoạn từ Quốc lộ 51 đến đường Vành đai 4 TP.HCM, đường ven biển (tỉnh lộ 994) Vũng Tàu đi Bình Châu, đường kết nối với đường cao tốc Biên Hòa – Vũng Tàu từ quốc lộ 56 đoạn tránh thành phố Bà Rịa đến vòng xoay đường 3/2 thành phố Vũng Tàu sẽ kết nối các khu vực kinh tế quan trọng của tỉnh với các tuyến cao tốc, đường quốc lộ và kết nối với mạng lưới giao thông đường bộ quốc gia.</p>
+                    <p style="padding-left: 40px; padding-top: 7px;"><b>Đường thủy:</b> Hệ thống luồng hàng hải trên địa bàn tỉnh kết nối với các tuyến hàng hải quốc tế đến tất cả các nước có cảng biển trên thế giới. Hệ thống luồng tuyến đường thủy nội địa kết nối đồng bộ với các tuyến luồng hàng hải Vũng Tàu – Thị Vải, luồng sông Dinh và dễ dàng kết nối với các tỉnh thành khác trong khu vực như Thành phố Hồ Chí Minh và vùng Tây Nam bộ. Tuyến luồng đi Côn Đảo đã được kết nối khai thác các tuyến từ Vũng Tàu, Cần Thơ, Sóc Trăng (bến Trần Đề) ra Côn Đảo bằng tàu cao tốc.</p>
+                    <p style="padding-left: 40px; padding-top: 7px;"><b>Cảng:</b> Cảng biển BR-VT là hệ thống cảng biển đặc biệt, đã được Thủ tướng Chính phủ phê duyệt tại Quyết định số 804/QĐ-TTg ngày 08 tháng 7 năm 2022. Hiện tại, BR-VT đã quy hoạch 69 dự án, có 50 dự án cảng đang hoạt động. Tổng chiều dài cầu bến là 16.958 m, với tổng công suất thiết kế 150 triệu tấn/năm, trong đó có 08 dự án cảng container lớn với công suất 8,3 triệu TEUs/năm. Cụm cảng Cái Mép là một trong 19 cảng lớn của thế giới đón được siêu tàu lớn nhất hiện nay. Hệ thống cảng biển nước sâu tạo ưu thế cho phát triển dịch vụ thương mại, công nghiệp và thuận lợi trong hoạt động xuất nhập khẩu hàng hóa.</p>
+                    <p style="padding-left: 40px; padding-top: 7px;"><b>Cảng hàng không:</b> BR-VT có 2 sân bay đang khai thác, gồm: Cảng hàng không Côn Đảo với đường bay thẳng đến các tỉnh, thành phố: Hồ Chí Minh, Cần Thơ, Hà Nội, Vinh, Hải Phòng; Sân bay Vũng Tàu phục vụ dầu khí và phục vụ một số chuyến ra Côn Đảo vào các ngày cuối tuần. Trong thời gian tới Tỉnh sẽ thực hiện di dời sân bay Vũng Tàu sang khu vực Gò Găng và đầu tư xây mới sân bay Đất Đỏ để đáp ứng nhu cầu phát triển kinh tế xã hội của tỉnh.</b> BR-VT có 2 sân bay đang khai thác, gồm: Cảng hàng không Côn Đảo với đường bay thẳng đến các tỉnh, thành phố: Hồ Chí Minh, Cần Thơ, Hà Nội, Vinh, Hải Phòng; Sân bay Vũng Tàu phục vụ dầu khí và phục vụ một số chuyến ra Côn Đảo vào các ngày cuối tuần. Trong thời gian tới Tỉnh sẽ thực hiện di dời sân bay Vũng Tàu sang khu vực Gò Găng và đầu tư xây mới sân bay Đất Đỏ để đáp ứng nhu cầu phát triển kinh tế xã hội của tỉnh.</p>
+                    <p style="padding-left: 40px; padding-top: 7px;"><b>Khu công nghiệp:</b> Trên địa bàn tỉnh Bà Rịa – Vũng Tàu có 15 khu công nghiệp, với tổng diện tích 8.492 ha; trong đó, có 13 khu công nghiệp đang hoạt động với tổng diện tích 7.242 ha và 2 khu công nghiệp đã thành lập nhưng chưa hoạt động đó là khu công nghiệp Long Hương, khu công nghiệp Vạn Thượng với tổng diện tích 1.250 ha. Tỷ lệ lấp đầy các khu công nghiệp đạt 57,07% trên tổng số khu công nghiệp (15 khu công nghiệp) và 67,84% trên số khu công nghiệp đã hoàn thiện xây dựng hạ tầng (13 khu công nghiệp).</p>
+                    <p style="padding-left: 40px; padding-top: 7px;"><b>Cụm công nghiệp:</b> Toàn tỉnh quy hoạch phát triển 17 cụm công nghiệp với tổng diện tích khoảng 552,65 ha. Trong đó, 08 cụm do doanh nghiệp đầu tư, 6 cụm do nhà nước đầu tư, 01 cụm do cả nhà nước và doanh nghiệp đầu tư, 02 cụm đang kêu gọi đầu tư. Hiện tại đã có 6 cụm công nghiệp đã đi vào hoạt động, với tỉ lệ lấp đầy 65,36%.</p>
+                    <p style="padding-left: 40px; padding-top: 7px;"><b>Nông nghiệp công nghệ cao:</b> Tính đến tháng 10 năm 2022, trên địa bàn tỉnh có 352 cơ sở sản xuất, trồng, với diện tích 5.648 ha; 127 trang trại nuôi heo, gia cầm với tổng diện tích 515 ha; 19 cơ sở nuôi hải sản thương phẩm và sản xuất giống thủy sản ứng dụng công nghệ cao.</p>
+            </div>
+            <h2 id="GD" class="main-paragraph_tittle">Giáo dục</h2>
+            <div class="main-paragraph-items GD-pgr">
+                <p style="padding-left: 40px; padding-top: 7px;">Sau 30 năm thành lập, đến nay, Bà Rịa - Vũng Tàu đã có hệ thống trường học khang trang và hiện đại với hơn 60% trường đạt chuẩn quốc gia. Ngành giáo dục của tỉnh này đã vươn lên gặt hái nhiều thành tựu xuất sắc.</p>
+                <p style="padding-left: 40px; padding-top: 7px;">Ngày nay, khi đi đến bất cứ một xã, phường, thị trấn nào của tỉnh Bà Rịa - Vũng Tàu, mỗi nơi đều có 3 ngôi trường của ba cấp: mầm non, tiểu học, trung học cơ sở, khang trang, rộng đẹp. Ở cấp huyện, tùy theo quy mô dân số, mà mỗi địa bàn đều có từ 2 - 8 trường THPT, riêng huyện Côn Đảo có 1 trường. Nếu như năm 1991, cả TP Vũng Tàu chỉ có 1 trường THPT thì nay có đến 8 trường. Ngoài ra, tỉnh còn có 2 trường nuôi dạy trẻ khuyết tật, 1 trường dân tộc nội trú và 1 trường THPT chuyên.</p>
+                <p style="padding-left: 40px; padding-top: 7px;">Đến nay, tỉnh Bà Rịa - Vũng Tàu có 453 trường học mầm non và phổ thông, 137 trường tiểu học, 90 trường trung học cơ sở và 37 trường trung học phổ thông. Đặc biệt, trong đó có gần 280 trường đạt chuẩn quốc gia, chiếm tỷ lệ 60%.</p>
+                <p style="padding-left: 40px; padding-top: 7px;">Không chỉ dừng lại ở việc đầu tư xây dựng trường, lớp, tỉnh Bà Rịa - Vũng Tàu còn đầu tư trang thiết bị phục vụ giảng dạy, học tập. Hiện nay 100% trường THCS và THPT có phòng thí nghiệm, thực hành; 100% trường tiểu học có phòng học bộ môn; 100% trường THPT, THCS được trang bị ít nhất 2 phòng máy vi tính; 97,1% trường tiểu học cũng đã có phòng máy vi tinh và tổ chức giảng dạy bộ môn tin học.</p>
+                <p style="padding-left: 40px; padding-top: 7px;"> Bà Rịa - Vũng Tàu là địa phương đầu tiên thực hiện đề án "sữa học đường" Đến nay, ngân sách của tỉnh này đã chi hàng trăm tỉ đồng cho đề án. Sau hơn 10 năm thực hiện mô hình "sữa học đường", tỷ lệ trẻ em thấp còi, suy dinh dưỡng của tỉnh này đã giảm đáng kể. Cụ thể, tính đến cuối năm 2015, 100% trẻ tăng cân, tăng chiều cao và trí tuệ phát triển tốt; trẻ suy dinh dưỡng thể nhẹ cân năm 2012 là 3,71%, đến năm 2015 là 1,61%, trẻ suy dinh dưỡng thể thấp còi năm 2012 là 4,66% đến năm 2015 là 2,84%</p>
+            </div>
+            <h2 id="LHe" class="main-paragraph_tittle">Liên hệ</h2>
+            <div class="main-paragraph-items LHe-pgr">
+                <p style="padding-left: 40px;">Mã vùng (84+) 254</p>
+                <b style="font-size: 2.4rem; padding-top: 7px;">Các số điện thoại nóng</b><br>
+                    <ul style="padding-left: 40px;">
+                        <li>Đường dây nóng cấp cứu bờ biển TP. Vũng Tàu: 0908.063.096</li>
+                        <li>Gặp rắc rối về an toàn, an ninh trật tự hoặc khi mua hàng, lựa chọn dịch vụ, hãy gọi:</li>
+                            <ul style="padding-left: 60px;">
+                                <li>Trung tâm Quản lý và hỗ trợ du khách TP. Vũng Tàu: 0254.3611.988 (Hotline: 0911.644.838)</li>
+                                <li>Thanh tra Sở Du lịch: 0254.3727.447 - 0913.177.995 (Ông Nguyễn Văn Giáp, Phó Chánh Thanh tra Sở Du lịch)</li>
+                                <li>Ban QLKDL Huyện Long Điền: 0254.3661.238</li>
+                                <li>Ban QLKDL Huyện Đất Đỏ: 0254. 3677. 332</li>
+                                <li>Ban QLKDL Huyện Xuyên Mộc: 0254.3771.419</li>
+                                <li>Ban QLKDL Quốc Gia Côn Đảo: 0254.3830.115</li>
+                            </ul>
+                    </ul>
+                    <p style="padding-left: 40px;">Hoặc gọi 1080 để xin số điện thoại Công an phường, xã sở tại.</p>
+                <b style="font-size: 2.4rem; padding-top: 7px;">Y tế</b>
+                    <table style="width: 100%; border: 1px solid black;">
+                        <tr>
+                            <th colspan="4">DANH SÁCH CÁC CƠ SỞ Y TẾ CÔNG LẬP ĐANG HOẠT ĐỘNG</th>
+                        </tr>
+                        <tr>
+                            <th>STT</th>
+                            <th style="width: 35%;">Tên cơ sở y tế</th>
+                            <th>Địa chỉ</th>
+                            <th style="width: 20%;">Số điện thoại</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>BỆNH VIỆN LÊ LỢI</td>
+                            <td>22 Lê Lợi, phường 1, Tp.Vũng Tàu</td>
+                            <td>0254. 3839233<br>
+                                0254. 3810607
+                                </td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>BỆNH VIỆN BÀ RỊA</td>
+                            <td>686 Võ Văn Kiệt, P.Long Tâm,TP. Bà Rịa</td>
+                            <td>0254.3731187 <br>
+                                0254.3828118
+                                </td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>PHÒNG KHÁM CHUYÊN KHOA SẢN PHỤ KHOA - KHHGĐ, TRUNG TÂM CHĂM SÓC SỨC KHỎE SINH SẢN</td>
+                            <td>Khu Gò Cát 8 - Xã Hòa Long - Tp.Bà Rịa</td>
+                            <td>0254.3742620 <br>
+                                0254. 3742620
+                                </td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>BỆNH VIỆN MẮT</td>
+                            <td>Số 21 Phạm Ngọc Thạch, P. Phước Hưng, Tp. Bà Rịa</td>
+                            <td>0254. 3732718 <br>
+                                0254. 3732717
+                                </td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>TRUNG TÂM GIÁM ĐỊNH Y KHOA</td>
+                            <td>25 B, Lê Lợi phường 4, Tp. Vũng Tàu</td>
+                            <td>0254. 3832987<br>
+                                0254. 3543220
+                                </td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>BAN BẢO VỆ CHĂM SÓC SỨC KHỎE CÁN BỘ TỈNH BÀ RỊA - VŨNG TÀU</td>
+                            <td>1. Cơ sở 1: 104 Trần Hưng Đạo, phường 1, Tp.Vũng Tàu, tỉnh Bà Rịa- Vũng Tàu <br>
+ 
+                                2. Cơ sở 2: 870 Võ Văn Kiệt, P.Long Tâm, Tp.Bà Rịa.
+                                </td>
+                            <td>0989989560</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>BỆNH VIỆN TÂM THẦN</td>
+                            <td>Quốc lộ 56, ấp Đức Trung, xã Bình Ba, H.Châu Đức</td>
+                            <td>0254. 881178</td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>TRUNG TÂM Y TẾ HUYỆN ĐẤT ĐỎ</td>
+                            <td>Ấp Phước Lộc, xã Phước Hội, huyện Đất Đỏ</td>
+                            <td>0254. 3691411<br>
+                                0254. 3691411
+                                </td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>TRUNG TÂM Y TẾ QUÂN DÂN Y HUYỆN CÔN ĐẢO</td>
+                            <td>Đường Lê Hồng phong, huyện Côn Đảo</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>10</td>
+                            <td>TRUNG TÂM Y TẾ THÀNH PHỐ BÀ RỊA</td>
+                            <td>Số 57, Nguyễn Thanh Đằng, phường Phước Hiệp, Thành phố Bà Rịa</td>
+                            <td>0254. 3825157<br>
+                                0254. 3711948
+                                </td>
+                        </tr>
+                        <tr>
+                            <td>11</td>
+                            <td>TRUNG TÂM Y TẾ HUYỆN TÂN THÀNH</td>
+                            <td>Đường 81, khu phố Vạn Hạnh. TT. Phú Mỹ, H. Tân Thành</td>
+                            <td>0254. 3876223<br>
+                                0254. 3893368
+                                </td>
+                        </tr>
+                        <tr>
+                            <td>12</td>
+                            <td>PHÒNG KHÁM CHUYÊN KHOA SẢN</td>
+                            <td>Khu Gò Cát 8, Xã Hòa Long , Tp. Bà Rịa</td>
+                            <td>0254.3830530</td>
+                        </tr>
+                        <tr>
+                            <td>13</td>
+                            <td>TRUNG TÂM Y TẾ TP.VŨNG TÀU</td>
+                            <td>278 Lê Lợi TP Vũng Tàu</td>
+                            <td>0254. 3838348<br>
+                                0254. 3812552
+                                </td>
+                        </tr>
+                        <tr>
+                            <td>14</td>
+                            <td>TRUNG TÂM Y TẾ HUYỆN LONG ĐIỀN</td>
+                            <td>Ấp An Thạnh, Xã An Ngãi, Huyện Long Điền</td>
+                            <td>0254. 3862925</br>
+                                0254. 3862856
+                                </td>
+                        </tr>
+                        <tr>
+                            <td>15</td>
+                            <td>TRUNG TÂM Y TẾ HUYỆN XUYÊN MÔC</td>
+                            <td>Quốc lộ 55, TT.Phước Bửu, H.Xuyên Mộc</td>
+                            <td>0254. 3874528<br>
+                                0254. 3874528
+                                </td>
+                        </tr>
+                        <tr>
+                            <td>16</td>
+                            <td>TRUNG TÂM Y TẾ HUYỆN CHÂU ĐỨC</td>
+                            <td>14 Lê Hồng Phong, TT.Ngãi Giao, H.Châu Đức</td>
+                            <td>0254. 3881865<br>
+                                0254. 3881803
+                                </td>
+                        </tr>
+                        <tr>
+                            <td>17</td>
+                            <td>TRUNG TÂM Y TẾ VIETSOVPETRO</td>
+                            <td>Số 02 đường Pasteur, phường 7, Tp.Vũng Tàu</td>
+                            <td>0983721506</td>
+                        </tr>
+                    </table>
+                <b style="font-size: 2.4rem; padding-top: 7px;">Các địa điểm ATM và thu đổi ngoại tệ</b>
+                <table style="width: 100%; border: 1px solid black;">
+                    <tr>
+                        <th>STT</th>
+                        <th>Ngân hàng</th>
+                        <th>Địa chỉ</th>
+                        <th>Số điện thoại</th>
+                    </tr>
+                    <tr>
+                        <td rowspan="21">1</td>
+                        <td rowspan="21">BIDV</td>
+                        <td>24 Trần Hưng Đạo, P1, TP. Vũng Tàu</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>72A Trần Hưng Đạo, P1, TP. Vũng Tàu</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>550 Đường 30/4, Rạch Dừa, TP. Vũng Tàu</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Đường 28 Tháng 4, Long Sơn, TP. Vũng Tàu</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>315 Thống Nhất, P8, TP. Vũng Tàu</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>33-35 Nguyễn Thái Học, P7, TP. Vũng Tàu</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>D1 - 2/25,26 đường Nguyễn Hữu Cảnh, Nguyễn An Ninh, TP. Vũng Tàu</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>294 Cu Ba, TP. Vũng Tàu </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>917 đường 30/4, P11, TP. Vũng Tàu</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>477 đường 30/4, Rạch Dừa, TP. Vũng Tàu</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>01 Trường Chinh, Phường Phước Trung, TP. Bà Rịa</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Tổ 7 Ấp Lò Vôi, Phường Phước Hưng, Huyện Long Điền</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>498 QL51, Phước Hoà, Tân Thành</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Số 2457 Độc Lập (QL51), Thị Xã Phú Mỹ, Tân Thành</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Ấp 2, Xã Hắc Dịch, Huyện Tân Thành</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Khu phố Tân Lộc, Phước Hoà, Tân Thành</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Km48, QL51, Ấp Ông Trịnh, Xã Tân Phước, Huyện Tân Thành</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>QL51, Ấp Phú Hà, Xã Mỹ Xuân, Huyện Tân Thành </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>26-28 đường Lê Lợi, thị trấn Ngãi Giao, Huyện Châu Đức</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>54 QI55 Phước Bửu, Huyện Xuyên Mộc</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Khu phố Tường Thành, Huyện Đất Đỏ </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td rowspan="10">2</td>
+                        <td rowspan="10">Sacombank</td>
+                        <td>196 đường 30/4, Rạch Dừa, TP. Vũng Tàu</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>86 Nam Kỳ Khởi Nghĩa, Phường Thắng Tam, TP. Vũng Tàu</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>67A Lê Hồng Phong, Phường 7, TP. Vũng Tàu</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Số 300A - 302 Nguyễn An Ninh, Phường 7, Tp.Vũng Tàu</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>3 Dương Bạch Mai, Phường Phước Trung, Tp.Bà Rịa</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>504 Tỉnh Lộ 52, Khu Phố Tường Thành, Thị Trấn Đất Đỏ, H.Đất Đỏ</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>72 Hương Lộ 2, Xã Phước Hưng, Thị trấn Long Hải, Huyện Long Điền</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>223/6 Quốc Lộ 55, Thị Trấn. Phước Bửu, Huyện Xuyên Mộc</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Tổ 6 Đường Độc Lập, Khu Phố Ngọc Hà, Thị Trấn Phú Mỹ, Huyện Tân Thành</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>291-293, Hùng Vương, Ngãi Giao, Huyện Châu Đức</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td rowspan="21">3</td>
+                        <td rowspan="21">Agribank</td>
+                        <td>Số 43A Đường 30/4, Phường 9, Thành Phố Vũng Tàu</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Số 103 Nam Kỳ Khởi Nghĩa, Phường 3, Thành Phố Vũng Tàu</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Số 1042-1044 Đường 30/4, Phường 11, Thành Phố Vũng Tàu</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Số 364 Trương Công Định, Phường 8, Thành Phố Vũng Tàu</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Thôn 1, Xã Long Sơn, Thành Phố Vũng Tàu</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Tỉnh Lộ 52 Ấp Nam, Xã Hoà Long, TP. Bà Rịa</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Số 21 Nguyễn Hữu Thọ, Phường Phước Trung, TP. Bà Rịa</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Số 27 Trần Xuân Độ, Thị Trấn Long Điền, Huyện Long Điền</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Ấp Lò Vôi, Xã Phước Hưng, Huyện Long Điền</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Thị Trần Long Hải, Huyện Long Điền</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Khu Phố Hiệp Hòa, Thị Trấn Đất Đỏ, Huyện Đất Đỏ</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Tỉnh Lộ 329, Ấp Phú Hòa, Xã Hòa Hiệp, Huyện Xuyên Mộc</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Số 157 Quốc Lộ 55, Thị Trấn Phước Bửu, Huyện Xuyên Mộc</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Quốc Lộ 55, Ấp Láng Găng, Xã Bình Châu, Huyện Xuyên Mộc</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Khu Công Nghiệp Phú Mỹ I, Phường Phú Mỹ, Thị Xã Phú Mỹ</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Số 362 Độc Lập, Phường Phú Mỹ, Thị Xã Phú Mỹ</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Quốc Lộ 51, Tổ 16, Khu Phố Thị Vải, Phường Mỹ Xuân, Thị Xã Phú Mỹ</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Khu Phố 2, Phường Hắc Dịch, Thị Xã Phú M</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Số 10 Lê Hồng Phong, Thị Trấn Ngãi Giao, Huyện Châu Đức</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Số 297A Hùng Vương, Thị Trấn Ngãi Giao, Huyện Châu Đức</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Quốc Lộ 56, Xã Đá Bạc, Huyện Châu Đức</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td rowspan="0">4</td>
+                        <td rowspan="0">ACB</td>
+                        <td>413 - 415 Nguyễn An Ninh, TP. Vũng Tàu</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>89 Nguyễn An Ninh, P6, TP. Vũng Tàu</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>306 Đường 30/4, Phường Rạch Dừa, TP. Vũng Tàu </td>
+                        <td></td>
+                    </tr>
+                </table>
+            </div>
         </div>
     </div>
     <script src="main.js">

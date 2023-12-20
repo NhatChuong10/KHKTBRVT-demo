@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+}
+
 :root {
     --green-color: #06D6A0;
     --green-black-color: #2F4F4F;
@@ -20,11 +24,11 @@ html {
  }
 
 .using {
-    background-color: #02C39A;
+    background-color:  #0072f5;
 }
 
 .nav {
-    background-color: #028090;
+    background-color: #131224;
     width: 100%;
     height: 50px;
     display: flex;
@@ -89,16 +93,19 @@ html {
     width: 100%;
     height: 100%;
     outline: none;
-    background-color: #02C39A;
+    background-color: 
+    #0072f5;
     border: 0px;
     font-size: 1.6rem;
     font-family: Paragarph;
+    color: white;
 }
 
 .fi {
     width: fit-content;
     height: 100%;
-    background-color: #02C39A;
+    background-color: 
+    #0072f5;
     display: flex;
     align-items: center;
     padding: 2px 8px 2px 4px;
@@ -124,95 +131,33 @@ html {
     cursor: pointer;
 }
 
-.main {
-    background-image: linear-gradient(0, rgba(255, 255, 255, 0.3),  rgba(255, 255, 255, 0.3)),url("../img/VungTau_ve_dem.jpg");
-    background-repeat: no-repeat;
-    object-fit: cover;
-    background-size: cover;
+.container {
+    height: 1300px;
     width: 100%;
-    height: 800px;
-    display: flex;
-    justify-content: center;
-    align-items: stretch;
-    background-size: cover;    
+    max-width: 1250px;
+    padding-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.main__slogan {
-    color: var(--blackgrey-color);
-    margin-left: 60px;
-    margin-top: 260px;
-}
-
-.main__slogan-tittle {
-    font-family: Heading;
-    font-size: 6.5rem;
-    color: var(--green-color);
-    text-align: center;
-}
-
-.main__slogan-descirption {
-    font-size: 2.5rem;
-    font-weight: 400;
-    text-align: left;
-    color: var(--white-color);
-}
-
-.Menu{
-    height: 400px;
-    width:150px;
-    position: sticky;
-    position: -webkit-sticky;
-    top: 20%;
-}
-
-.main-content__items {
-    background-color: white;
-    border: solid 1px black;
-    height: calc(400px / 8);
-    font-size: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-.main-content {
+.container-infor {
     width: 100%;
-    display: flex;
-    
-}
-
-.bookmark {
-    text-decoration: none;
-    color: #000;
-}
-
-.main-paragraph {
-    width: 100%;
-    font-size: 1.6rem;
-    margin-left: 5%;
-    margin-top: 5%;
-    max-width: 1200px;
+    height: 80%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
-.main-paragraph_tittle {
-    font-size: 4.0rem;
+.comment {
+    width: 100%S;
+    height: 140px;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 25px;
+    border: solid #0072f5 5px;
+    color: #131224;
     text-align: center;
-}
-
-.main-paragraph-items {
-    align-items: center;
-    font-size: 2.0rem;
-}
-
-th, td {
-    border: 1px solid black;
-    text-align: center;
-    padding: 5px 0 5px 0;
-}
-
-.main-paragraph_tittle, .main-paragraph-items {
-    padding: 5px;
+    font-size: 2.5rem;
+    padding: 15px 3px 3px 0px;
+    /* font-weight: bold; */
 }
