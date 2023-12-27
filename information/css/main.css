@@ -239,7 +239,7 @@ html {
 .container-2__swiper-slide {
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(0, rgba(7,59,76, 0.55),  rgba(7,59,76, 0.55)) ,url(../information/img/places/đất\ đỏ.png);
+    background-image: linear-gradient(0, rgba(7,59,76, 0.55),  rgba(7,59,76, 0.55)) ,url("https://github.com/NhatChuong10/KHKTBRVT-demo/blob/master/information/img/places/%C4%91%E1%BA%A5t%20%C4%91%E1%BB%8F.png?raw=true");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -314,27 +314,27 @@ html {
 }
 
 .BaRia {
-    background-image: linear-gradient(0, rgba(7,59,76, 0.55),  rgba(7,59,76, 0.55)),url(../information/img/places/virtual/nhatron.png);
+    background-image: linear-gradient(0, rgba(7,59,76, 0.55),  rgba(7,59,76, 0.55)),url(https://github.com/NhatChuong10/KHKTBRVT-demo/blob/master/information/img/places/virtual/nhatron.png?raw=true);
 }
 
 .XuyenMoc {
-    background-image: linear-gradient(0, rgba(7,59,76, 0.55),  rgba(7,59,76, 0.55)),url(../information/img/places/virtual/HoCoc.jpg);
+    background-image: linear-gradient(0, rgba(7,59,76, 0.55),  rgba(7,59,76, 0.55)),url(https://github.com/NhatChuong10/KHKTBRVT-demo/blob/master/information/img/places/virtual/HoCoc.jpg?raw=true);
 }
 
 .LongDien {
-    background-image: linear-gradient(0, rgba(7,59,76, 0.55),  rgba(7,59,76, 0.55)),url(../information/img/places/virtual/Núi\ Minh\ Đạm\ -\ Long\ Hải.jpg);
+    background-image: linear-gradient(0, rgba(7,59,76, 0.55),  rgba(7,59,76, 0.55)),url(https://github.com/NhatChuong10/KHKTBRVT-demo/blob/master/information/img/places/virtual/N%C3%BAi%20Minh%20%C4%90%E1%BA%A1m%20-%20Long%20H%E1%BA%A3i.jpg?raw=true);
 }
 
 .ConDao {
-    background-image: linear-gradient(0, rgba(7,59,76, 0.55),  rgba(7,59,76, 0.55)),url(../information/img/places/virtual/ConDao.jpg);
+    background-image: linear-gradient(0, rgba(7,59,76, 0.55),  rgba(7,59,76, 0.55)),url(https://github.com/NhatChuong10/KHKTBRVT-demo/blob/master/information/img/places/virtual/ConDao.jpg?raw=true);
 }
 
 .PhuMy {
-    background-image: linear-gradient(0, rgba(7,59,76, 0.55),  rgba(7,59,76, 0.55)),url(../information/img/places/virtual/cang\ bien.jpg)
+    background-image: linear-gradient(0, rgba(7,59,76, 0.55),  rgba(7,59,76, 0.55)),url(https://github.com/NhatChuong10/KHKTBRVT-demo/blob/master/information/img/places/virtual/cang%20bien.jpg?raw=true)
 }
 
 .ChauDuc {
-    background-image: linear-gradient(0, rgba(7,59,76, 0.55),  rgba(7,59,76, 0.55)),url(../information/img/places/virtual/thac-xuan-son.jpg)
+    background-image: linear-gradient(0, rgba(7,59,76, 0.55),  rgba(7,59,76, 0.55)),url(https://github.com/NhatChuong10/KHKTBRVT-demo/blob/master/information/img/places/virtual/thac-xuan-son.jpg?raw=true)
 }
 
 .container-2__button {
@@ -401,7 +401,7 @@ html {
 .brvtcoj__img1 {
     width: 100%;
     height: 250px;
-    background: url(/information/img/places/ngọn\ hải\ đăng.jpeg) no-repeat;
+    background: url(../img/places/ngọn\ hải\ đăng.jpeg) no-repeat;
     object-fit: cover;
     background-size: cover;
     background-position: center;
@@ -411,7 +411,7 @@ html {
 .brvtcoj__img2 {
     width: 100%;
     height: 250px;
-    background: url(/information/img/places/sunset\ in\ Hon\ Ba\ -\ tp.vt.png) no-repeat;
+    background: url(../img/places/sunset\ in\ Hon\ Ba\ -\ tp.vt.png) no-repeat;
     object-fit: cover;
     background-size: cover;
     background-position: center;
@@ -421,7 +421,7 @@ html {
 .brvtcoj__img3 {
     width: 100%;
     height: 250px;
-    background: url(/information/img/places/tượng\ chúa\ -\ tp.vt.jpeg) no-repeat;
+    background: url(../img/places/tượng\ chúa\ -\ tp.vt.jpeg) no-repeat;
     object-fit: cover;
     background-size: cover;
     background-position: center;
